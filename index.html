@@ -1,13 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn JavaScript mod-6</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Learn JavaScript mod-7</title>
+  </head>
+  <body>
+    <h2>task-1</h2>
+    <ul id="categories">
+      <li class="item">
+        <h2>Животные</h2>
+
+        <ul>
+          <li>Кот</li>
+          <li>Хомяк</li>
+          <li>Лошадь</li>
+          <li>Попугай</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Продукты</h2>
+
+        <ul>
+          <li>Хлеб</li>
+          <li>Петрушка</li>
+          <li>Творог</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Технологии</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
+      </li>
+    </ul>
+    <h2>task-2</h2>
+    <ul id="ingredients"></ul>
+    <h2>task-3</h2>
+    <ul id="gallery"></ul>
+
+    <h2>task-4</h2>
+    <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
+    </div>
+    <h2>task-5</h2>
+    <input type="text" placeholder="Ваше имя?" id="name-input" />
+    <h2>Привет, <span id="name-output">незнакомец</span>!</h2>
+    <h2>task-6</h2>
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символов"
+    />
+    <h2>task-7</h2>
+    <input id="font-size-control" type="range" />
+    <br />
+    <span id="text">Абракадабра!</span>
+
+    <h2>task-8</h2>
+    <h3>введите количество</h3>
+    <div id="controls">
+    <input
+      type="number"
+      min="0"
+      max="100"
+      step="1"
+    />
+    <button type="button" data-action="render">Add element</button>
+    <button type="button" data-action="destroy">Del element</button>
+    <button type="button" data-action="clear">Del All</button>
+    </div>
+    <ul id="collectionsElements"></ul>
+    <h2>task-8-2</h2>
     
+    <div id="boxe-controls">
+      <input type="number" min="0" max="100" step="1"data-action="quality" placeholder="quality" />
+      <button type="button" data-action="create">Create</button>
+      <button type="button" data-action="dell">Delete</button>
+      <button type="button" data-action="clearAll">Clear All</button>
+    </div>
+    <div id="boxes"></div>
 
     <script src="./js/task-1.js" type="module"></script>
-</body>
+    <script src="./js/task-2.js" type="module"></script>
+    <script src="./js/task-3.js" type="module"></script>
+    <script src="./js/task-4.js" type="module"></script>
+    <script src="./js/task-5.js" type="module"></script>
+    <script src="./js/task-6.js" type="module"></script>
+    <script src="./js/task-7.js" type="module"></script>
+    <script src="./js/task-8.js" type="module"></script>
+    <script src="./js/task-8-2.js" type="module"></script>
+  </body>
 </html>
